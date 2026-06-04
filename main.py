@@ -81,9 +81,9 @@ def ocr_and_translate_from_clipboard():
         print("================================================================\n")
         
         # 翻訳結果をクリップボードに書き戻す
-        pyperclip.copy(translated_text)
-        print("※ 翻訳結果の日本語テキストをクリップボードにコピーしました。")
-        print("任意の場所で Ctrl + V を押して貼り付けられます。")
+        # pyperclip.copy(translated_text)
+        # print("※ 翻訳結果の日本語テキストをクリップボードにコピーしました。")
+        # print("任意の場所で Ctrl + V を押して貼り付けられます。")
         
     except Exception as e:
         print(f"【警告】翻訳エラーが発生しました: {e}")
